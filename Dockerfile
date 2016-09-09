@@ -1,5 +1,5 @@
 FROM nouchka/symfony
-MAINTAINER Dharma Fawkes "lxc@katagena.com"
+MAINTAINER Dharma Fawkes "docker@katagena.com"
 
 RUN apt-get update && \
 	DEBIAN_FRONTEND=noninteractive apt-get -yq install npm && \
