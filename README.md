@@ -23,6 +23,10 @@ This image extends [https://hub.docker.com/r/nouchka/symfony/](https://hub.docke
 
 Refer to parent image [https://hub.docker.com/r/nouchka/symfony/](https://hub.docker.com/r/nouchka/symfony/)
 
+# Todo
+
+* Trigger travis build on push on parent directory
+
 # Donate
 
 Bitcoin Address: 15NVMBpZJTvkefwfsMAFA3YhyiJ5D2zd3R
