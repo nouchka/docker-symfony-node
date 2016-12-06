@@ -26,6 +26,7 @@ Refer to parent image [https://hub.docker.com/r/nouchka/symfony/](https://hub.do
 # Todo
 
 * Trigger travis build on push on parent directory
+* merge in docker-symfony with 3 new branchs and add -node suffix to tags
 
 # Donate
 
