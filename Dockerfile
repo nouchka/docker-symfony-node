@@ -1,8 +1,8 @@
-FROM nouchka/symfony
+FROM nouchka/symfony:latest
 MAINTAINER Dharma Fawkes "docker@katagena.com"
 
-RUN apt-get update && \
-	DEBIAN_FRONTEND=noninteractive apt-get -yq install npm && \
+RUN DEBIAN_FRONTEND=noninteractive apt-get update && \
+	apt-get -yq install npm && \
 	ln -s /usr/bin/nodejs /usr/bin/node && \
 	npm install -g bower && \
 	npm install -g less && \
